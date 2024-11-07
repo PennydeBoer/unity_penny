@@ -6,3 +6,7 @@
 # volgende keer
  * volgende keer ga ik meer moderne code voor beweging
  * meer oplossingen zoeken voordat ik hulp vraag
+  
+# Interactive elementen
+ * ik heb ervoor gezorgd dat beide autos naar een plek gaan
+ * volgende keer probeer ik meer onderzoek te doen om te zorgen dat ze heen en weer kunnen
