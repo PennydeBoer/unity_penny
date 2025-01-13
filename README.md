@@ -13,7 +13,6 @@
   
 
 # takenlijst periode 1.2
- * bestuurbare speler creëren
  * speler animeren
  * spring mechanisme
  * pick-up objecten
