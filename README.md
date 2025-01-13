@@ -10,3 +10,10 @@
 # Interactive elementen
  * ik heb ervoor gezorgd dat beide autos naar een plek gaan
  * volgende keer probeer ik meer onderzoek te doen om te zorgen dat ze heen en weer kunnen
+  
+
+# takenlijst periode 1.2
+ * bestuurbare speler creëren
+ * speler animeren
+ * spring mechanisme
+ * pick-up objecten
