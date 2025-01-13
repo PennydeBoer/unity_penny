@@ -18,10 +18,15 @@ public class MovementScript : MonoBehaviour
         {
             rb.AddForce(transform.forward * 100);
         }
-        else if (Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.LeftShift) && Input.GetKey(KeyCode.W))
         {
             rb.AddForce(transform.forward * 5);
         }
+        else if (Input.GetKey(KeyCode.W))
+        {
+            rb.AddForce(transform.forward * 3);
+        }
+         
         if (Input.GetKey(KeyCode.A))
         {
             //rb.MoveRotation(Quaternion.Euler(0, 3, 0));
@@ -33,7 +38,7 @@ public class MovementScript : MonoBehaviour
         }
         else if (Input.GetKey(KeyCode.S))
         {
-            rb.AddForce(transform.forward * -5);
+            rb.AddForce(transform.forward * -3);
         }
         if (Input.GetKey(KeyCode.D))
         {
