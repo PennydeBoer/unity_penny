@@ -11,8 +11,10 @@
  * ik heb ervoor gezorgd dat beide autos naar een plek gaan
  * volgende keer probeer ik meer onderzoek te doen om te zorgen dat ze heen en weer kunnen
   
-
+# speler animeren
+  * ik heb de animaties voor run walk backwards en idle toegevoegd en een nieuw model moeten gebruiken.
+  * mijn oude model kon geen animator gebruiken en ik heb een nieuwe movement toegevoegd
+  
 # takenlijst periode 1.2
- * speler animeren
  * spring mechanisme
  * pick-up objecten
