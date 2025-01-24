@@ -12262,6 +12262,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7f5b6213886a9d48adce12d1ac30e38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jump: {x: 0, y: 0, z: 0}
+  jumpForce: 2
+  isGrounded: 0
   movementSpeed: 3
 --- !u!1 &1835338173 stripped
 GameObject:
