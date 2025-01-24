@@ -15,6 +15,9 @@
   * ik heb de animaties voor run walk backwards en idle toegevoegd en een nieuw model moeten gebruiken.
   * mijn oude model kon geen animator gebruiken en ik heb een nieuwe movement toegevoegd
   
+# spring mechanisme
+ * ik heb space als een jump trigger toegevoegd en meerdere animaties voor welke staat de karakter in zit
+ * volgende keer ga ik uitzoeken hoe ik kan zorgen dat de animaties op de juiste tijd start
+  
 # takenlijst periode 1.2
- * spring mechanisme
  * pick-up objecten

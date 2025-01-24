@@ -4,13 +4,21 @@ using UnityEngine;
 
 public class MovementScript : MonoBehaviour
 {
+    public Vector3 jump;
+    public float jumpForce = 2.0f;
+
+    public bool isGrounded;
     Rigidbody rb;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        jump = new Vector3(0.0f, 2.0f, 0.0f);
     }
-
+    void OnCollisionStay()
+    {
+        isGrounded = true;
+    }
     // Update is called once per frame
     void Update()
     {
@@ -45,5 +53,6 @@ public class MovementScript : MonoBehaviour
             //rb.MoveRotation(Quaternion.Euler(0, 3, 0));
             rb.rotation = (Quaternion.Euler(0, -1 + rb.rotation.eulerAngles.y, 0));
         }
+
     }
 }
