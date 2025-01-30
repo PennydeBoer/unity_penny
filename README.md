@@ -19,5 +19,7 @@
  * ik heb space als een jump trigger toegevoegd en meerdere animaties voor welke staat de karakter in zit
  * volgende keer ga ik uitzoeken hoe ik kan zorgen dat de animaties op de juiste tijd start
   
-# takenlijst periode 1.2
- * pick-up objecten
+# Pickups
+ * ik heb pickups toegevoegd met een link naar de ui voor de score
+  
+ 
